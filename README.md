@@ -4,6 +4,24 @@ Streaming S3 videos using Imagekit as an optimization and caching layer.
 
 ---
 
+### 📌 Project Overview:
+
+This project demonstrates how to stream videos stored in Amazon S3 using ImageKit as a CDN and optimization layer.
+
+ImageKit supports multiple external storage origins, with S3 being one of them. After configuring S3 as an origin, ImageKit:
+
+- Securely fetches videos using IAM credentials
+
+- Applies on-the-fly transformations
+
+- Caches content at edge locations
+
+- Serves optimized media globally via CDN
+
+This eliminates the need to store multiple processed versions of the same video while improving performance and scalability.
+
+---
+
 ### Live Demo:
 
 React App Demo to display imagekit videos stored in s3
@@ -30,27 +48,11 @@ Connecting Imagekit with S3 by setting up an origin in imagekit
 
 ---
 
-### 📌 Project Overview::
-
-This project demonstrates how to stream videos stored in Amazon S3 using ImageKit as a CDN and optimization layer.
-
-ImageKit supports multiple external storage origins, with S3 being one of them. After configuring S3 as an origin, ImageKit:
-
-- Securely fetches videos using IAM credentials
-
-- Applies on-the-fly transformations
-
-- Caches content at edge locations
-
-- Serves optimized media globally via CDN
-
-This eliminates the need to store multiple processed versions of the same video while improving performance and scalability.
-
----
-
 ### 🏗️ Architecture Diagram:
 
 ![Architecture Diagram](./images/diagram.png)
+
+---
 
 ### 🚀 Key Features:
 
@@ -63,10 +65,20 @@ This eliminates the need to store multiple processed versions of the same video 
 
 ---
 
-### 🎯 Learning Objectives
+### 🎯 Learning Objectives:
 
 - Understand how to configure **Amazon S3 as an external origin** in ImageKit
 - Learn how to securely connect third-party services using **IAM credentials**
 - Implement **video streaming through a CDN layer**
 - Apply **on-the-fly video transformations** (resize, trim, etc.)
 - Understand how **adaptive bitrate streaming** improves user experience
+
+---
+
+### 👨‍💻 Connect with me:
+
+**Ibrar Munir**
+
+Github: https://github.com/ibrarmunircoder </br>
+LinkedIn: https://www.linkedin.com/in/ibrar-munir-53197a16b </br> 
+Portfolio: https://ibrarmunir.d3psh89dj43dt6.amplifyapp.com
