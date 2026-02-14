@@ -10,17 +10,17 @@ React App Demo to display imagekit videos stored in s3
 
 ![react app](./images/ract-app.png)
 
-Imagekit also supports some transformations (resize, trim, overlay) only fly without having to store multiple files.
+ImageKit supports real-time video transformations (resize, trim, overlay, etc.) without requiring multiple stored versions of the same file.
 
 **Resize demo**
 
 ![resize](./images/resize.png)
 
-**Trim demo** (original 14 seconds => 5 seconds)
+**Trim demo** Original video length: 14 seconds → Trimmed to 5 seconds using transformation parameters.
 
 ![trim](./images/trim.png)
 
-**Adaptive bitrate** (Imagekit will display video of different resolutions based on player and network speed)
+**Adaptive bitrate** (ImageKit automatically delivers the most appropriate video resolution based on based on player size and network speed)
 
 ![adaptive bitrate](./images/adaptive-bitrate.png)
 
